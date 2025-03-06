@@ -25,6 +25,10 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+h2{
+    color: #6a4df7;
+}
+
 /* Container */
 .container {
     display: flex;
