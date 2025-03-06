@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+
+    <div class="container">
+        <h1>🎂 Happy Birthday! 🎂</h1>
+
+        <div class="image-container">
+            <img src="Happy.webp" alt="Birthday Cake">
+
+            <h2>Wishing you absolute best on your special day and always 🎂🥂May this year be filled with love , laughter and all your heart's desires🤍stay healthy and happy 😊
+            </h2>
+        </div>
+
+        <button id="surpriseBt"> <a href="Card.html"> Click for Surprise!</a></button>
+
+       
+
+    </div>
+
+    <script>
+      document.getElementById("surpriseBtn").addEventListener("click", function() {
+    let message = document.getElementById("Card.html");
+    let song = document.getElementById("birthdaySong");
+
+    message.classList.toggle("hidden");
+    song.play();
+});
+
+    </script>
+</body>
+</html>
